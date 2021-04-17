@@ -15,7 +15,7 @@ struct Item {
     var imageUrl: String
 }
 
-var selectedWebPage = "https://www.apple.com"
+var selectedWebPage = "https://www.apple.com" //sample
 
 class TableViewController: UITableViewController, XMLParserDelegate {
         var itemsArray: [Item] = []
